@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Страница редактирования записи пользователя</title>
+</head>
+<body>
+    <h1>Форма редактирования записи пользователя</h1>
+    <form action="/form_handler_Update" method="post">
+    <h3>Введите ID пользователя запись которого нужно редактировать:</h3>
+    <input type="text" name="id" id="id" placeholder="Заплните поле id" class="form-control"><br>
+    <textarea type="text" name="email" id="email" placeholder="Заплните поле email" class="form-control"></textarea><br>
+    <textarea type="text" name="phone" id="phone" placeholder="Заплните поле phone" class="form-control"></textarea><br>
+    <textarea type="text" name="firstName" id="firstName" placeholder="Заплните поле firstName" class="form-control"></textarea><br>
+    <textarea type="text" name="lastName" id="lastName" placeholder="Заплните поле lastName" class="form-control"></textarea><br>
+    <button>Редактировать</button>
+    </form>
+</body>
+</html>
